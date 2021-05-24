@@ -75,10 +75,10 @@ img {
 #header #video {
 	position:absolute;
 	left:50%;
-	width:100%;
 	transform: translateX(-50%);
+	width:100%;
 	text-align:center;
-	bottom: 200px;
+	top: 20px;
 }
 
 .rounded-video {

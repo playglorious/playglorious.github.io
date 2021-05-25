@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Home</title>
+<link rel = "stylesheet" href = "Home.css">
+<script>
+
+
+function toggleControls() {
+	var nvideo = document.getElementById("ThisVideo");
+	
+  if (nvideo.hasAttribute("controls")) {
+    nvideo.removeAttribute("controls")
+  } else {
+	  
+    nvideo.setAttribute("controls", "controls")
+	  
+  }
+	
+}
+	
+	</script>
+</head>
+<body>
+<table class = "center" width="1000" border="0" align="center">
+  <tbody>
+    <tr>
+      <td><video id="ThisVideo" poster="Images/Logo.png" class="teaser" onClick="toggleControls();">
+          <source src= "Videos/Glorious Teaser.mp4" type="video/mp4"/>
+        </video>
+        ;</td>
+    </tr>
+    <tr>
+      <td><a href="https://discord.gg/z2dD6Byw"><img src="Images/Discord.png" alt="" class="discord"></a>;</td>
+		
+      
+    </tr>
+  </tbody>
+</table>
+<video autoplay loop muted class="bgvideo" id="bgvideo">
+  <source src = "Videos/Background Particles.mp4" type="video/mp4">
+</video>
+<img src="Images/Full.png" class="full" alt="">
+</body>
+</html>

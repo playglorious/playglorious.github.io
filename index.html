@@ -12,21 +12,33 @@
 
 	  gtag('config', 'G-G7K1262RTR');
 	</script>
+	<script>
+	  function startVideo() { 
+	    var nvideo = document.getElementById('trailer');
+		nvideo.setAttribute("controls", "controls");
+		nvideo.play();
+      }
+	</script>
   </head>
   <body>    	
 	<div id='header'>	
-      <img class='header-image' src='images/splash.png'/>	  
-	  <!-- <img class='header-image' src='images/splash-with-logo.png'/> -->
+      <video class='bg-video' width="100%" autoplay="" loop="" muted="">
+	    <source src="videos/particles.mp4" type="video/mp4"/>
+      </video>
+	  <img class='header-image' src='images/splash.png'/>	  	  
 	  <div id='video'>	  
-	    <div class='rounded-video' style='width:70%'>
-	      <video controls width="100%" poster="images/logo-transparent.png">
+	    <div class='rounded-video' onclick="startVideo();">
+	      <video id='trailer' width="100%" poster="images/logo-transparent.png">
 	        <source src="videos/web test cut.mp4" type="video/mp4"/>
             <p><a href="videos/web test cut.mp4">Watch Trailer</a></p>
 	      </video>		
+		</div>
+		<div style='margin:10px'>
+		  <a href="https://discord.gg/tkv324kQ4V" style='display:inline-block; width:50%'><img src='images/discord-black.png'/></a>
 		</div>		
 	  </div>	  
 	  <div id='buttons'>	  
-		<a class='rounded-button' href="https://discord.gg/tkv324kQ4V"><img src='images/discord.png'/></a>
+		
 	  </div>	  
 	</div>
 	

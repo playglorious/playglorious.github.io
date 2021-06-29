@@ -3,6 +3,7 @@ body {
   padding: 1rem;
   max-width: 1200px;
   margin: 30px auto;
+  font-family: 'Mukta', sans-serif;
 }
 
 td {
@@ -19,6 +20,16 @@ hr {
 
 .section {
   margin: 20px 10px;
+}
+
+.trailer {
+  width: 960px;
+  padding: 10px;	
+}
+
+.screenshot {
+  width: 960px;
+  padding: 10px;
 }
 
 .todo {

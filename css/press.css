@@ -32,6 +32,10 @@ hr {
   padding: 10px;
 }
 
+.logo {
+ padding: 10px;
+}
+
 .todo {
   color:red;
 }

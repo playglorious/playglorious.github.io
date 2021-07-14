@@ -7,12 +7,6 @@ body {
   text-align:justify;
 }
 
-h1 { font-size: 2.5em; text-align:center;background-color:#363A56; position:relative;}
-h2 { font-size: 2em; }
-p { font-size: 1em; }
-
-li { margin: 10px; }
-
 img {
   max-width:100%;
   text-align: center;
@@ -20,25 +14,16 @@ img {
   margin: 0 auto;
 }
 
-#content {
-  margin: 20px;
+a {
+  color: inherit;
+  text-decordation: inherit;
 }
 
-.content-box {
-	background-color:black;
-	padding: 20px;
-	position:relative;
-	margin-top: 20px;
-}
 
-.content-box:before {
-    content:"";
-    position:absolute;
-    top:0;
-    left:0;
-    border-width:30px 30px 0px 0px;
-    border-style:solid;
-    border-color:#20222F transparent transparent #fff ;
+.buttonlink {
+  display:inline-block; 
+  width:40%; 
+  padding: 10px	
 }
 
 #header {
